@@ -7,7 +7,21 @@ An AI program made on the jetson ai that is designed  to find hostile weather th
 
 # Instructions for use:
 *This project was made for the jetson nano's specific hardware, you may try using othr operating systems but the instructions will be different to the ones that follow*
-## Download the attached files from github.
+
+## Download the files necessary for the project.
+
+- `sudo apt-get update`
+- `sudo apt-get install git cmake`
+- `git clone --recursive https://github.com/dusty-nv/jetson-inference`
+- `cd jetson-inference`
+- `git submodule update --init`
+- `sudo apt-get install libpython3-dev python3-numpy`
+- `mkdir build`
+- `cd build`
+- `cmake ../`
+- `make`
+- `sudo make install`
+- `sudo ldconfig`
 
 
 
