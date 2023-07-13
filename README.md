@@ -6,15 +6,10 @@ An AI program made on the jetson ai that is designed  to find hostile weather th
 ![image of a sandtorm](https://github.com/ScratchyCat-MIT/HazardousWeatherAlert-JetsonAI/assets/59852805/d9498a6b-08a3-4e12-beb7-02c750c63287)
 
 # Instructions for use:
+*This project was made for the jetson nano's specific hardware, you may try using othr operating systems but the instructions will be different to the ones that follow*
+## Download the attached files from github.
 
-## Download the attatched files from github:
 
-  ### Windows:
-  For windows we recommend that you quit using windows and use linux instead, it will save ou alot of headache. A.K.A install WSL (Windows Subsystem for Linux) basically linux distros running directly on your windows machine.
-  ### MacOS:
-  For install, we [HIGHLY!] recommend that you use git and wget (an application such as brew is required to use git for instructions on how to install brew go here: https://brew.sh/)
-  ### Linux:
-  Make sure that you already have git and/or wget installed. 
 
 # Examples of AI predicting weather (1st Iteration, 150 epochs):
 ![Fog Smog](https://github.com/ScratchyCat-MIT/HazardousWeatherAlert-JetsonAI/assets/59852805/856dd814-1770-4e9b-a17a-1f81e5139a61)
@@ -30,4 +25,4 @@ An AI program made on the jetson ai that is designed  to find hostile weather th
 
 ![7](https://github.com/ScratchyCat-MIT/HazardousWeatherAlert-JetsonAI/assets/59852805/13774f47-499a-4711-bc45-0be69e498c45)
 ![6](https://github.com/ScratchyCat-MIT/HazardousWeatherAlert-JetsonAI/assets/59852805/afc64610-bdd1-4e59-86c4-1cd146539aac)
-# Examples of AI predicting weatehr (2nd Iteration, 400 epchs):
+# Examples of AI predicting weatehr (2nd Iteration, 400 epochs):
