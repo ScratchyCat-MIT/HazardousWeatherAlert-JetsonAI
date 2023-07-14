@@ -27,7 +27,8 @@ An AI program made on the Nvidia Jetson Nano that is designed  to find hostile w
 
 Before any installing happens make sure that you have python installed.
 
-`wget https://www.dropbox.com/s/2s1mku43hvyr9n6/classificationFirstIteration.zip`
+For first iteration: (Less Accurate) `wget https://www.dropbox.com/s/2s1mku43hvyr9n6/classificationFirstIteration.zip`
+For second iteration: (More Accurate) `wget https://www.dropbox.com/s/vywzeue5is5rkbr/classificationSecondIteration.zip`
 
 This command accesses a dropbox zip file that has all the necessary files for the project, if you would like the first iteration of the project than there is a link in it's folder.
 
@@ -37,9 +38,16 @@ Next we have to unzip the file, there are many different ways to unzip a zip fil
 
 Now that unzip is installed we can use it to unzip the file using this command.
 
+`unzip classificationFirstIteration.zip` or
 `unzip classificationSecondIteration.zip`
 
-After the file is done unziping you will need to run the model, this may take a few minutes as the model initializes and learns, you cn run the model using this command.
+After the file is done unziping you will need to find and run the model, this may take a few minutes as the model initializes and learns, you cn run the model using this command.
+
+First CD into the directory of the model with
+
+`cd classification`
+
+Then set the DATASET and NET variables that determine the path of your model, after 
 
 `DATASET=data/weather`
 `NET=models/weather`
